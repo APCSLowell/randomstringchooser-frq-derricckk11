@@ -26,7 +26,7 @@ public class RandomStringChooser
 
     }
 
-   int index = (int)(Math.random() * valuesRemaining)
+   int index = (int)(Math.random() * valuesRemaining);
 
    String selected = values[index];
    values[index] = values[valuesRemaining - 1];
